@@ -10,6 +10,9 @@ const Chatflows = Loadable(lazy(() => import('@/views/chatflows')))
 // agents routing
 const Agentflows = Loadable(lazy(() => import('@/views/agentflows')))
 
+// finetuning flows routing
+const Finetuningflows = Loadable(lazy(() => import('@/views/finetuningflows')))
+
 // marketplaces routing
 const Marketplaces = Loadable(lazy(() => import('@/views/marketplaces')))
 
@@ -51,6 +54,10 @@ const MainRoutes = {
         {
             path: '/agentflows',
             element: <Agentflows />
+        },
+        {
+            path: '/finetuningflows',
+            element: <Finetuningflows />
         },
         {
             path: '/marketplaces',

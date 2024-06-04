@@ -39,6 +39,15 @@ const dashboard = {
             isBeta: true
         },
         {
+            id: 'finetuningFlows',
+            title: 'FineTuningFlows',
+            type: 'item',
+            url: '/finetuningflows',
+            icon: icons.IconUsersGroup,
+            breadcrumbs: true,
+            isBeta: true
+        },
+        {
             id: 'marketplaces',
             title: 'Marketplaces',
             type: 'item',

@@ -35,7 +35,7 @@ export const ChatPopUp = ({ chatflowid, isAgentCanvas }) => {
     const enqueueSnackbar = (...args) => dispatch(enqueueSnackbarAction(...args))
     const closeSnackbar = (...args) => dispatch(closeSnackbarAction(...args))
 
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(true)
     const [showExpandDialog, setShowExpandDialog] = useState(false)
     const [expandDialogProps, setExpandDialogProps] = useState({})
     const [previews, setPreviews] = useState([])
